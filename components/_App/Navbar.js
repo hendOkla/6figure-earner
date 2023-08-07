@@ -71,8 +71,8 @@ const NavbarStyleFour = () => {
     if(isLoggedIn){
       axios.post('api/logout-customer').then(res=>{
         if(res.data.status===200){
-          /* localStorage.removeItem('auth_token');
-          localStorage.removeItem('auth_token'); */
+          localStorage.removeItem('auth_token');
+          localStorage.removeItem('auth_token'); 
           window.localStorage.clear();
           router.push({pathname: '/'});            
         }
