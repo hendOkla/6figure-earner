@@ -4,7 +4,15 @@ import Link from 'next/link';
 import StripeCheckout from 'react-stripe-checkout';
 import swal from 'sweetalert';
 import axios from 'axios';
-import { checkout } from '../../checkout';
+/* import { checkout } from '../../checkout'; */
+
+import { loadStripe } from '@stripe/stripe-js';
+
+// Make sure to call `loadStripe` outside of a component’s render to avoid
+// recreating the `Stripe` object on every render.
+const stripePromise = loadStripe(
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY
+);
 
 
 
@@ -208,6 +216,17 @@ export default function ServicesPay() {
               </div>
             </div>
           </div>
+
+          <form action="/api/checkout_sessions" method="POST">
+            <section>
+          
+          
+              <input type="email" name="email" value="eng.hanadi@gmail.com" required />
+              <button type="submit" name="amount" value="350" role="link" >Checkout</button>
+              <button type="submit" name="amount"value ="600" role="link" >Welcome Checkout</button>
+            </section>
+
+          </form> 
         </div>
       </div>
     </>
