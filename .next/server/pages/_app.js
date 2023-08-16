@@ -304,7 +304,7 @@ _components_App_Layout__WEBPACK_IMPORTED_MODULE_13__ = (__webpack_async_dependen
 
 
 
-/* axios.defaults.baseURL= 'https://6figure-earner.net/LarReApi/public/';  */ (axios__WEBPACK_IMPORTED_MODULE_9___default().defaults).baseURL = "http://127.0.0.1:8000/";
+/* axios.defaults.baseURL= 'https://6figure-earner.net/LarReApi/public/';  */ (axios__WEBPACK_IMPORTED_MODULE_9___default().defaults).baseURL = "https://6figure-earner.net/LarReApi/public/";
 (axios__WEBPACK_IMPORTED_MODULE_9___default().defaults).headers.post["Content-Type"] = "application/json";
 (axios__WEBPACK_IMPORTED_MODULE_9___default().defaults).headers.post["Accept"] = "application/json";
 (axios__WEBPACK_IMPORTED_MODULE_9___default().defaults).withCredentials = true;
