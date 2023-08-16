@@ -312,7 +312,7 @@ const BlogDetails = ()=>{
                                             /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                                                 className: "article-image",
                                                 children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                                    src: `http://127.0.0.1:8000/${courseInput.image}`,
+                                                    src: `https://6figure-earner.net/LarReApi/public/${courseInput.image}`,
                                                     alt: "image"
                                                 })
                                             }),

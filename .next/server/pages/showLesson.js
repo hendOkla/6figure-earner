@@ -140,7 +140,7 @@ const BlogSidebar2 = ()=>{
                                                 onContextMenu: (e)=>e.preventDefault(),
                                                 children: [
                                                     /*#__PURE__*/ (0,jsx_runtime.jsx)("source", {
-                                                        src: `http://127.0.0.1:8000/${locale === "ar" ? item.video : item[`video_${locale}`]}`
+                                                        src: `https://6figure-earner.net/LarReApi/public/${locale === "ar" ? item.video : item[`video_${locale}`]}`
                                                     }),
                                                     "Your browser does not support the video tag."
                                                 ]
@@ -234,7 +234,7 @@ const BlogDetails = ()=>{
                                                     onContextMenu: (e)=>e.preventDefault(),
                                                     children: [
                                                         /*#__PURE__*/ (0,jsx_runtime.jsx)("source", {
-                                                            src: `http://127.0.0.1:8000/${locale === "ar" ? LessonInput.video : LessonInput[`video_${locale}`]}`
+                                                            src: `https://6figure-earner.net/LarReApi/public/${locale === "ar" ? LessonInput.video : LessonInput[`video_${locale}`]}`
                                                         }),
                                                         "Your browser does not support the video tag."
                                                     ]

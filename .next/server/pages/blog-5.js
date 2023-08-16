@@ -184,7 +184,7 @@ const Blog5 = ()=>{
                                                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                                                         className: "icon",
                                                         children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                                            src: `http://127.0.0.1:8000/${item.image}`,
+                                                            src: `https://6figure-earner.net/LarReApi/public/${item.image}`,
                                                             alt: "image"
                                                         })
                                                     }),
@@ -300,7 +300,7 @@ const Blog5 = ()=>{
                                                     /*#__PURE__*/ (0,jsx_runtime.jsx)("div", {
                                                         className: "icon",
                                                         children: /*#__PURE__*/ (0,jsx_runtime.jsx)("img", {
-                                                            src: `http://127.0.0.1:8000/${item.image}`,
+                                                            src: `https://6figure-earner.net/LarReApi/public/${item.image}`,
                                                             alt: "image"
                                                         })
                                                     }),
