@@ -1,0 +1,20 @@
+{
+  "..\\getDictionary.js -> ./dictionaries/ar.json": {
+    "id": 2327,
+    "files": [
+      "static/chunks/2327.d73f09a32abc49a5.js"
+    ]
+  },
+  "..\\getDictionary.js -> ./dictionaries/en.json": {
+    "id": 3975,
+    "files": [
+      "static/chunks/3975.7c90fce1c7ff3dfb.js"
+    ]
+  },
+  "..\\getDictionary.js -> ./dictionaries/sp.json": {
+    "id": 9982,
+    "files": [
+      "static/chunks/9982.ed50c8af38521560.js"
+    ]
+  }
+}
